@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Your Name</h1>
+    <p class="subtitle">Role / Focus (e.g., Data Analyst • Finance • Developer)</p>
+
+    <div class="links">
+      <a href="https://github.com/YOURUSERNAME" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOURLINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="mailto:you@email.com">Email</a>
+      <a href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        I build ___ and I’m interested in ___. Recently I worked on ___.
+        (2–4 sentences max.)
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Project 1: Market Dashboard</h3>
+          <p>A dashboard that tracks X and explains Y. Built with A/B/C.</p>
+          <div class="card-links">
+            <a href="https://github.com/YOURUSERNAME/project1" target="_blank" rel="noreferrer">Code</a>
+            <a href="https://YOURUSERNAME.github.io/project1-demo" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+          <ul>
+            <li>What you did: built pipeline + charts</li>
+            <li>Impact: reduced manual work by ~X%</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Project 2: Portfolio Site</h3>
+          <p>This website itself. Simple, fast, and hosted on GitHub Pages.</p>
+          <div class="card-links">
+            <a href="https://github.com/YOURUSERNAME/YOURUSERNAME.github.io" target="_blank" rel="noreferrer">Code</a>
+          </div>
+          <ul>
+            <li>Responsive layout</li>
+            <li>Clean structure for future updates</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Project 3: Something Else</h3>
+          <p>One-liner description of what it is and why it matters.</p>
+          <div class="card-links">
+            <a href="https://github.com/YOURUSERNAME/project3" target="_blank" rel="noreferrer">Code</a>
+          </div>
+          <ul>
+            <li>Key result #1</li>
+            <li>Key result #2</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <strong>Company / Team</strong> — Role (YYYY–YYYY)<br/>
+          Did X, improved Y, collaborated with Z.
+        </li>
+        <li>
+          <strong>School / Program</strong> — Focus (YYYY–YYYY)<br/>
+          Relevant coursework / achievements.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:you@email.com">you@email.com</a><br/>
+        GitHub: <a href="https://github.com/YOURUSERNAME">github.com/YOURUSERNAME</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
